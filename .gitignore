@@ -69,5 +69,8 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 
-# Ignore all scenes test
-/[Aa]ssets/[Ss]cenes
+# Ignore all scenes files not named main
+/[Aa]ssets/[Ss]cenes/*
+!/[Aa]ssets/[Ss]cenes/[Mm]ain.unity
+!/[Aa]ssets/[Ss]cenes/[Mm]ain.unity.meta
+
