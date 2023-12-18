@@ -12,5 +12,5 @@ Stealthily utilise the environment around you to avoid being detected by enemies
 # Credits
 Ammar  
 Mayar  
-Joel
+Joel  
 Moses  
