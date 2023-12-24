@@ -8,9 +8,13 @@ public class PlayerController : MonoBehaviour
     private Vector2 moveValue;
     private Vector3 playerVelocity;
     private bool isJumping;
+    private bool isCrouching;
 
     [SerializeField]
-    private float moveSpeed;
+    private float moveSpeed = 5.0f;
+
+    [SerializeField]
+    private float crouchSpeed = 2.5f;
 
     [SerializeField]
     private float rotationSpeed;
@@ -20,6 +24,12 @@ public class PlayerController : MonoBehaviour
 
     [SerializeField]
     private float gravityValue = -9.81f;
+
+    [SerializeField]
+    private float standingHeight = 2.0f;
+
+    [SerializeField]
+    private float crouchingHeight;
 
     void Start()
     {
@@ -39,12 +49,27 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    void OnCrouch(InputValue value)
+    {
+        isCrouching = value.isPressed;
+        if (isCrouching)
+        {
+            controller.height = crouchingHeight;
+        }
+        else
+        {
+            controller.height = standingHeight;
+        }
+    }
+
     void FixedUpdate()
     {
         Vector3 movement = new Vector3(moveValue.x, 0.0f, moveValue.y);
 
+        float currentSpeed = isCrouching ? crouchSpeed : moveSpeed;
+
         // Handle horizontal movement
-        controller.Move(movement * moveSpeed * Time.fixedDeltaTime);
+        controller.Move(movement * currentSpeed * Time.fixedDeltaTime);
 
         if (movement != Vector3.zero)
         {
