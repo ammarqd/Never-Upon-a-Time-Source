@@ -639,9 +639,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 5
+  crouchSpeed: 2.5
+  sprintSpeed: 7.5
   rotationSpeed: 10000
   jumpHeight: 1
   gravityValue: -9.81
+  standingHeight: 2
+  crouchingHeight: 0
 --- !u!1 &728460639
 GameObject:
   m_ObjectHideFlags: 0
