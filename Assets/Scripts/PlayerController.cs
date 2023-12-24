@@ -9,12 +9,16 @@ public class PlayerController : MonoBehaviour
     private Vector3 playerVelocity;
     private bool isJumping;
     private bool isCrouching;
+    private bool isSprinting;
 
     [SerializeField]
     private float moveSpeed = 5.0f;
 
     [SerializeField]
     private float crouchSpeed = 2.5f;
+
+    [SerializeField]
+    private float sprintSpeed = 10.0f;
 
     [SerializeField]
     private float rotationSpeed;
@@ -62,11 +66,16 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    void OnSprint(InputValue value)
+    {
+        isSprinting = value.isPressed;
+    }
+
     void FixedUpdate()
     {
         Vector3 movement = new Vector3(moveValue.x, 0.0f, moveValue.y);
 
-        float currentSpeed = isCrouching ? crouchSpeed : moveSpeed;
+        float currentSpeed = isSprinting ? sprintSpeed : isCrouching ? crouchSpeed : moveSpeed;
 
         // Handle horizontal movement
         controller.Move(movement * currentSpeed * Time.fixedDeltaTime);
