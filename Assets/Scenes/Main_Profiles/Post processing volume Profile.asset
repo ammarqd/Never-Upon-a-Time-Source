@@ -83,7 +83,7 @@ MonoBehaviour:
     value: 0
   mixerRedOutBlueIn:
     overrideState: 1
-    value: -47
+    value: -42
   mixerGreenOutRedIn:
     overrideState: 1
     value: 0
