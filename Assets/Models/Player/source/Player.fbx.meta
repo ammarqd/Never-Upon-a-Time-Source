@@ -3,7 +3,22 @@ guid: ea8dd0ddeb3a47e48884e1db17d11011
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Child02_0.001
+    second: {fileID: 2100000, guid: d83095c285351064188afbc9325b0d66, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Child02_Braids_0
+    second: {fileID: 2100000, guid: 5829585a881d7cc409fb5d158961f4bc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.001
+    second: {fileID: 2100000, guid: 89f662ee2543664438d19fe9c1b8ce9d, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -52,8 +67,8 @@ ModelImporter:
     weldVertices: 1
     bakeAxisConversion: 0
     preserveHierarchy: 0
-    skinWeightsMode: 0
-    maxBonesPerVertex: 4
+    skinWeightsMode: 1
+    maxBonesPerVertex: 84
     minBoneWeight: 0.001
     optimizeBones: 1
     meshOptimizationFlags: -1
@@ -417,38 +432,38 @@ ModelImporter:
         length: 0
         modified: 0
     skeleton:
-    - name: skel-fin2(Clone)
+    - name: Player(Clone)
       parentName: 
       position: {x: 0, y: 0, z: 0}
       rotation: {x: 0, y: 0, z: 0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: NurbsPath.002
-      parentName: skel-fin2(Clone)
+      parentName: Player(Clone)
       position: {x: 0.0000000018626451, y: 0, z: -1.7763568e-15}
       rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
       scale: {x: 100, y: 100, z: 100}
     - name: Object.000
-      parentName: skel-fin2(Clone)
+      parentName: Player(Clone)
       position: {x: -0, y: 0, z: 0}
       rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
       scale: {x: 100, y: 100, z: 100}
     - name: Object.006
-      parentName: skel-fin2(Clone)
+      parentName: Player(Clone)
       position: {x: -0, y: 0, z: 0}
       rotation: {x: -0.5, y: 0.49999997, z: 0.5, w: 0.5}
       scale: {x: 100, y: 100, z: 100}
     - name: Object.007
-      parentName: skel-fin2(Clone)
+      parentName: Player(Clone)
       position: {x: -0, y: 0, z: 0}
       rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
       scale: {x: 100, y: 100, z: 100}
     - name: Point
-      parentName: skel-fin2(Clone)
+      parentName: Player(Clone)
       position: {x: -0.46859393, y: 0.93144697, z: -0.036322117}
       rotation: {x: 0.519086, y: -0.124738485, z: 0.6534959, w: 0.53659403}
       scale: {x: 100, y: 100, z: 100.00001}
     - name: SKM_Player02.ao.001
-      parentName: skel-fin2(Clone)
+      parentName: Player(Clone)
       position: {x: -0, y: 0, z: 0}
       rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
       scale: {x: 100, y: 100, z: 100}
