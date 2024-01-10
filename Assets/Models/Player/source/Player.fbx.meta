@@ -8,17 +8,17 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: MAT_Child02_0.001
-    second: {fileID: 2100000, guid: d83095c285351064188afbc9325b0d66, type: 2}
+    second: {fileID: 2100000, guid: 4ae883ce8ed3f074988196f460a92551, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: MAT_Child02_Braids_0
-    second: {fileID: 2100000, guid: 5829585a881d7cc409fb5d158961f4bc, type: 2}
+    second: {fileID: 2100000, guid: 6ff398d963cc4514eaeae3bd5ccaee2a, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Material.001
-    second: {fileID: 2100000, guid: 89f662ee2543664438d19fe9c1b8ce9d, type: 2}
+    second: {fileID: 2100000, guid: 9a8d32d5f957a954e9f282930afe3a32, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
