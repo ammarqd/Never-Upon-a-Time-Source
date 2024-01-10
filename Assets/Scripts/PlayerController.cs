@@ -8,6 +8,7 @@ public class PlayerController : MonoBehaviour
 
     private Vector2 moveValue;
     private Vector3 playerVelocity;
+
     private bool isJumping;
     private bool isCrouching;
     private bool isSprinting;
@@ -71,6 +72,7 @@ public class PlayerController : MonoBehaviour
     void FixedUpdate()
     {
         Vector3 movement = new Vector3(moveValue.x, 0.0f, moveValue.y);
+        movement.Normalize();
 
         float currentSpeed = isSprinting ? sprintSpeed : isCrouching ? crouchSpeed : moveSpeed;
 
