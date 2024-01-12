@@ -6161,7 +6161,7 @@ MonoBehaviour:
   moveSpeed: 5
   crouchSpeed: 2.5
   sprintSpeed: 10
-  rotationSpeed: 380
+  rotationSpeed: 2000
   jumpHeight: 1
   gravityValue: -9.81
   standingHeight: 1.4
