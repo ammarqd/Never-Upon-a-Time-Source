@@ -1,8 +1,7 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
-using TMPro;
 using UnityEngine;
+using TMPro;
 
 public class DialogueDisplayer : MonoBehaviour
 {
@@ -10,27 +9,66 @@ public class DialogueDisplayer : MonoBehaviour
     [SerializeField] private TMP_Text dialogueText;
     public DialogueObject currentDialogue;
 
-    private void Start()
+    public float textSpeed;
+
+    private int index;
+
+    // Start is called before the first frame update
+    void Start()
     {
-        DisplayDialogue(currentDialogue);
+        StartDialogue();
     }
 
-    private IEnumerator MoveThroughDialogue(DialogueObject dialogueObject)
+    // Update is called once per frame
+    void Update()
     {
-        for(int i = 0; i < dialogueObject.dialogueLines.Length; i++)
+        if (Input.GetMouseButtonDown(0))
         {
-            dialogueText.text = dialogueObject.dialogueLines[i].dialogue;
-        
-            //The following line of code makes it so that the for loop is paused until the user clicks the left mouse button.
-            yield return new WaitUntil(()=>Input.GetMouseButtonDown(0));
-            //The following line of codes make the coroutine wait for a frame so as the next WaitUntil is not skipped
-            yield return null;
+            string text = currentDialogue.dialogueLines[index].dialogue;
+            if (dialogueText.text == text)
+            {
+                NextLine();
+            }
+            else
+            {
+                StopAllCoroutines();
+                dialogueText.text = text;
+            }
         }
-        dialogueBox.SetActive(false);
     }
-    
-    public void DisplayDialogue(DialogueObject dialogueObject)
+
+    public void setCurrentDialogue(DialogueObject dialogue) 
     {
-        StartCoroutine(MoveThroughDialogue(dialogueObject));
+        currentDialogue = dialogue;
+    }
+
+    void StartDialogue()
+    {
+        index = 0;
+        StartCoroutine(TypeLine());
+    }
+
+    IEnumerator TypeLine()
+    {
+        string text = currentDialogue.dialogueLines[index].dialogue;
+        foreach (char c in text.ToCharArray())
+        {
+            dialogueText.text += c;
+            yield return new WaitForSeconds(textSpeed);
+        }
+    }
+
+    void NextLine()
+    {
+        if (index < currentDialogue.dialogueLines.Length - 1)
+        {
+            index++;
+            dialogueText.text = "";
+            StartCoroutine(TypeLine());
+        }
+        else
+        {
+            dialogueBox.SetActive(false);
+        }
     }
 }
