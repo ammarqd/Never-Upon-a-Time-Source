@@ -447,12 +447,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20.2
+  m_fontSize: 16
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
-  m_fontSizeMin: 18
-  m_fontSizeMax: 20.2
+  m_fontSizeMin: 16
+  m_fontSizeMax: 16
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -754,7 +754,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c04e60e1f82da49c2806714940f3a041, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _prompt: Open Door
+  _prompt: Press 'E' to open
 --- !u!1 &386229269 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2971542036940430761, guid: b2b3433c444ebf747be19a484f49b4a1, type: 3}
@@ -13419,7 +13419,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 1.773}
+  m_AnchoredPosition: {x: 0, y: 1.7}
   m_SizeDelta: {x: 200, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2008499659
