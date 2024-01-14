@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 353fee244d6e5954586c648561a12ca7
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 192738
+  packageName: Basic Graphic Settings Menu
+  packageVersion: 1.0
+  assetPath: Assets/AkshayDhotre/GraphicSettingsFree/Scripts/Core/KeyboardMouseInput.cs
+  uploadId: 426717

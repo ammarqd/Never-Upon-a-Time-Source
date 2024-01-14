@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: d9b8d71b24cd2e34c9b436502cc43631
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 192738
+  packageName: Basic Graphic Settings Menu
+  packageVersion: 1.0
+  assetPath: Assets/AkshayDhotre/GraphicSettingsFree/Scripts/Helpers/GraphicSettingHelperMethods.cs
+  uploadId: 426717
