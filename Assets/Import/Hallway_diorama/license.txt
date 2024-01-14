@@ -1,0 +1,11 @@
+Model Information:
+* title:	Hallway diorama
+* source:	https://sketchfab.com/3d-models/hallway-diorama-559a30e2d9364e1f90f05f7cff84ff47
+* author:	ericdelgado (https://sketchfab.com/ericdelgado)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Hallway diorama" (https://sketchfab.com/3d-models/hallway-diorama-559a30e2d9364e1f90f05f7cff84ff47) by ericdelgado (https://sketchfab.com/ericdelgado) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

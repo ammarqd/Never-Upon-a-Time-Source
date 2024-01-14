@@ -1,0 +1,11 @@
+Model Information:
+* title:	Cabinet with images of saints
+* source:	https://sketchfab.com/3d-models/cabinet-with-images-of-saints-94d7057b8de7404eb3a18b62ef79d663
+* author:	Virtual Museums of Małopolska (https://sketchfab.com/WirtualneMuzeaMalopolski)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Cabinet with images of saints" (https://sketchfab.com/3d-models/cabinet-with-images-of-saints-94d7057b8de7404eb3a18b62ef79d663) by Virtual Museums of Małopolska (https://sketchfab.com/WirtualneMuzeaMalopolski) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
