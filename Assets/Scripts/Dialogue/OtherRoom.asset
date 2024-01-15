@@ -10,12 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5b189c19ba00cd542858ac40b7ebd540, type: 3}
-  m_Name: OversizedRoom
+  m_Name: OtherRoom
   m_EditorClassIdentifier: 
   dialogueLines:
-  - dialogue: ...
-  - dialogue: Why is the furniture so large here.
-  - dialogue: Almost as if it were built for a giant.
-  - dialogue: Was this intended as an art piece?
-  - dialogue: Everything about this place is strange.
-  - dialogue: I need to find Seren...
+  - dialogue: Oh another key!
+  - dialogue: I need to find Seren soon.
