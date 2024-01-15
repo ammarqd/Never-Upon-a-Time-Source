@@ -21,6 +21,7 @@ public class EnemyController : MonoBehaviour
     public Transform[] waypoints;
     private int currentWaypointIndex = 0;
 
+    public LayerMask targetMask;
     public LayerMask obstructionMask;
 
     public bool canSeePlayer;
@@ -105,14 +106,18 @@ public class EnemyController : MonoBehaviour
     }
     private void FieldOfViewCheck()
     {
-        Vector3 directionToPlayer = (playerRef.transform.position - transform.position).normalized;
-        float distanceToPlayer = Vector3.Distance(transform.position, playerRef.transform.position);
+        Collider[] rangeChecks = Physics.OverlapSphere(transform.position, radius, targetMask);
 
-        if (distanceToPlayer < radius)
+        if (rangeChecks.Length != 0)
         {
-            if (Vector3.Angle(transform.forward, directionToPlayer) < angle / 2)
+            Transform target = rangeChecks[0].transform;
+            Vector3 directionToTarget = (target.position - transform.position).normalized;
+
+            if (Vector3.Angle(transform.forward, directionToTarget) < angle / 2)
             {
-                if (!Physics.Raycast(transform.position, directionToPlayer, distanceToPlayer, obstructionMask))
+                float distanceToTarget = Vector3.Distance(transform.position, target.position);
+
+                if (!Physics.Raycast(transform.position, directionToTarget, distanceToTarget, obstructionMask))
                     canSeePlayer = true;
                 else
                     canSeePlayer = false;
@@ -123,5 +128,4 @@ public class EnemyController : MonoBehaviour
         else if (canSeePlayer)
             canSeePlayer = false;
     }
-
 }

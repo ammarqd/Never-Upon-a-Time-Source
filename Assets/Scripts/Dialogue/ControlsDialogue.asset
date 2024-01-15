@@ -17,3 +17,4 @@ MonoBehaviour:
   - dialogue: '''Spacebar'' to jump'
   - dialogue: '''C'' to crouch'
   - dialogue: '''P'' to open the options menu'
+  - dialogue: '''E'' to interact'

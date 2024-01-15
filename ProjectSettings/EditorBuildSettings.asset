@@ -7,15 +7,21 @@ EditorBuildSettings:
   m_Scenes:
   - enabled: 1
     path: Assets/Scenes/Menu.unity
-    guid: d858d017fa6e1c84fbe7486da469606f
+    guid: e818c054139e0034896cccb9160b3faa
   - enabled: 1
-    path: Assets/Scenes/ControlsScreen.unity
-    guid: 70430184e35fa5a4ebb72e079d74768c
+    path: Assets/Scenes/Cutscene.unity
+    guid: 1e5a51f6002999242a2db0b475872fe0
   - enabled: 1
-    path: Assets/Scenes/Level0.unity
+    path: Assets/Scenes/Mainstreet.unity
     guid: 74e86410c53601b4990912b0d40b3a24
   - enabled: 1
-    path: Assets/Scenes/Level1.unity
+    path: Assets/Scenes/Mansion.unity
+    guid: 3175a630eaf881949acf0c9cdd3737cc
+  - enabled: 1
+    path: Assets/Scenes/Basement.unity
+    guid: 787cec602539a724ea37e79169594ab1
+  - enabled: 1
+    path: Assets/Scenes/Backstreet.unity
     guid: f831f60b29a63204a880d8709ee77848
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 84baed2b971fca04394d28bc3e8c56cf, type: 2}

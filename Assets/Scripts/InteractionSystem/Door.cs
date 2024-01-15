@@ -1,16 +1,16 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Events;
+using System.Collections;
 
 public class Door : MonoBehaviour, IInteractable
 {
+    public LevelManager levelManager;
+    public DialogueDisplayer dialogueDisplayer;
+    public Animator animator1;
+    public Animator animator2;
+    public AudioSource audioSource;
+
     [SerializeField] private string _prompt;
     [SerializeField] private DialogueObject _doorDialogue;
-    [SerializeField] Animator animator;
-
-    public DialogueDisplayer dialogueDisplayer;
-
     public string InteractionPrompt => _prompt;
     public bool Interact(Interactor interactor)
     {
@@ -28,7 +28,12 @@ public class Door : MonoBehaviour, IInteractable
         if (inventory.HasKey)
         {
             Debug.Log("Door Unlocked: Opening Door!");
-            animator.Play("Open Door");
+
+            animator1.Play("Open Door");
+            animator2.Play("Open Door");
+            audioSource.enabled = true;
+
+            StartCoroutine(WaitForAnimation());
             return true;
         }
 
@@ -36,6 +41,14 @@ public class Door : MonoBehaviour, IInteractable
         dialogueDisplayer.setCurrentDialogue(getDialogue());
         dialogueDisplayer.StartDialogue();
         return true;
+    }
+
+    private IEnumerator WaitForAnimation()
+    {
+        yield return new WaitForSeconds(animator1.GetCurrentAnimatorStateInfo(0).length);
+        yield return new WaitForSeconds(animator2.GetCurrentAnimatorStateInfo(0).length);
+
+        levelManager.LoadNextLevel();
     }
 
     public DialogueObject getDialogue() {
