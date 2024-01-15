@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: ac33a8f55412c71438b85f65ce43a1f4
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 192738
+  packageName: Basic Graphic Settings Menu
+  packageVersion: 1.0
+  assetPath: Assets/AkshayDhotre/GraphicSettingsFree/Scripts/Core/SubOption.cs
+  uploadId: 426717

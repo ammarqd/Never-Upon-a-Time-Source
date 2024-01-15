@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 20c469b2b1c274743bee9fa314ba88bb
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 192738
+  packageName: Basic Graphic Settings Menu
+  packageVersion: 1.0
+  assetPath: Assets/AkshayDhotre/GraphicSettingsFree/Scripts/Manager/GraphicSettingSaveManager.cs
+  uploadId: 426717

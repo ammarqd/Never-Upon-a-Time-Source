@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: aeb7796ee6abc844d97aef1cb914e4e3
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 192738
+  packageName: Basic Graphic Settings Menu
+  packageVersion: 1.0
+  assetPath: Assets/AkshayDhotre/GraphicSettingsFree/Scripts/Options/QualityLevelOption.cs
+  uploadId: 426717
