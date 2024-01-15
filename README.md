@@ -6,8 +6,7 @@ WASD for 360 degree player movement
 Hold C to crouch  
 Hold Shift to sprint  
 Press Spacebar to jump  
-
-Stealthily utilise the environment around you to avoid being detected by enemies or it's game over!
+Press P to open the options menu
 
 # Credits
 Ammar  
