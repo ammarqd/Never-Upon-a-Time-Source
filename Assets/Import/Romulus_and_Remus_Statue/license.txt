@@ -1,0 +1,11 @@
+Model Information:
+* title:	Romulus and Remus Statue
+* source:	https://sketchfab.com/3d-models/romulus-and-remus-statue-1ac1edb6d25b4859ab9ffdcc7fe40b3d
+* author:	hijinx (https://sketchfab.com/danshahin)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Romulus and Remus Statue" (https://sketchfab.com/3d-models/romulus-and-remus-statue-1ac1edb6d25b4859ab9ffdcc7fe40b3d) by hijinx (https://sketchfab.com/danshahin) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

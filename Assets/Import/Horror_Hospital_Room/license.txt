@@ -1,0 +1,11 @@
+Model Information:
+* title:	Horror Hospital Room
+* source:	https://sketchfab.com/3d-models/horror-hospital-room-56c9c40933644254b939ae2a22807d44
+* author:	KarolinaGlad (https://sketchfab.com/KarolinaGlad)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Horror Hospital Room" (https://sketchfab.com/3d-models/horror-hospital-room-56c9c40933644254b939ae2a22807d44) by KarolinaGlad (https://sketchfab.com/KarolinaGlad) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
