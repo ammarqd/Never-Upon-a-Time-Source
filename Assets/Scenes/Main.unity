@@ -755,6 +755,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _prompt: Press 'E' to open
+  _doorDialogue: {fileID: 11400000, guid: 873b79b91fe33094e80dcd70eae850a8, type: 2}
+  dialogueDisplayer: {fileID: 1604273007}
 --- !u!1 &386229269 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2971542036940430761, guid: b2b3433c444ebf747be19a484f49b4a1, type: 3}
@@ -12928,6 +12930,7 @@ MonoBehaviour:
   dialogueText: {fileID: 1877513714}
   currentDialogue: {fileID: 11400000, guid: 5319a1c55aa54b4469fa53e91e784e8f, type: 2}
   textSpeed: 0.05
+  isDialogueActive: 0
 --- !u!114 &1604273008
 MonoBehaviour:
   m_ObjectHideFlags: 0
