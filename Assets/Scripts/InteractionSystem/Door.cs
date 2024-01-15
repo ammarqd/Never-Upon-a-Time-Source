@@ -7,6 +7,7 @@ public class Door : MonoBehaviour, IInteractable
 {
     [SerializeField] private string _prompt;
     [SerializeField] private DialogueObject _doorDialogue;
+    [SerializeField] Animator animator;
 
     public DialogueDisplayer dialogueDisplayer;
 
@@ -27,6 +28,7 @@ public class Door : MonoBehaviour, IInteractable
         if (inventory.HasKey)
         {
             Debug.Log("Door Unlocked: Opening Door!");
+            animator.Play("Open Door");
             return true;
         }
 
