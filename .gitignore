@@ -73,3 +73,5 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]cenes/[Tt]est.unity
 /[Aa]ssets/[Ss]cenes/[Tt]est.unity.meta
 
+# Remove settings xml file
+MyNewGame/
