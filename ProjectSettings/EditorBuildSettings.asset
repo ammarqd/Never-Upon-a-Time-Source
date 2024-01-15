@@ -15,8 +15,8 @@ EditorBuildSettings:
     path: Assets/Scenes/Level0.unity
     guid: 74e86410c53601b4990912b0d40b3a24
   - enabled: 1
-    path: Assets/Scenes/EnemyTest.unity
-    guid: 2b833f668e874c947bfd4399eb4778f9
+    path: Assets/Scenes/Level1.unity
+    guid: f831f60b29a63204a880d8709ee77848
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 84baed2b971fca04394d28bc3e8c56cf, type: 2}
   m_UseUCBPForAssetBundles: 0
