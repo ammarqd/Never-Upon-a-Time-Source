@@ -14,6 +14,7 @@ namespace AkshayDhotre.GraphicSettingsMenu
         public ResolutionOption resolutionOption;
         public ScreenmodeOption screenmodeOption;
         public QualityLevelOption qualityLevelOption;
+        public MasterVolumeOption MasterVolumeOption;
 
         [Tooltip("The button on keyboard which when pressed will apply the graphic settings")]
         public KeyCode keyboardApplySettingsKey = KeyCode.Return;
@@ -72,6 +73,7 @@ namespace AkshayDhotre.GraphicSettingsMenu
             resolutionOption.Apply();
             screenmodeOption.Apply();
             qualityLevelOption.Apply();
+            MasterVolumeOption.Apply();
 
 
             Save();
